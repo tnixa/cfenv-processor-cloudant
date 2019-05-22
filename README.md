@@ -1,7 +1,6 @@
-## Test project for CfEnvProcessor for Cloudant on IBM Cloud
-Just a quick project to test writing CfEnvProcessors =)
+## A CfEnvProcessor for Cloudant
+Uses the Spring Boot Starter: 
+- https://github.com/watson-developer-cloud/spring-boot-starter.
 
-Uses the Cloudant Spring Boot Starter, along with a processor to set the properties from the service entry in VCAP_SERVICES.
-
-- https://github.com/cloudant-labs/cloudant-spring/
+Uses the CFEnv processor to set the properties from the service entry in VCAP_SERVICES:
 - https://github.com/pivotal-cf/java-cfenv

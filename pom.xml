@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>org.terrence</groupId>
-	<artifactId>testapp</artifactId>
+	<artifactId>cfenv-processor-cloudant</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>testapp</name>
-	<description>Demo project for Spring Boot</description>
+	<name>cfenv-processor-cloudant</name>
+	<description>A CfEnvProcessor Implementation for Cloudant</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -29,24 +29,10 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.cloudant</groupId>
-			<artifactId>cloudant-spring-boot-starter</artifactId>
-			<version>0.0.3</version>
-		</dependency>
-<dependency>
-  <groupId>io.pivotal.cfenv</groupId>
-  <artifactId>java-cfenv-boot</artifactId>
-  <version>1.0.0.RELEASE</version>
-</dependency>		
+			<groupId>io.pivotal.cfenv</groupId>
+			<artifactId>java-cfenv-boot</artifactId>
+			<version>1.0.0.RELEASE</version>
+		</dependency>		
 	</dependencies>
-
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
 
 </project>
